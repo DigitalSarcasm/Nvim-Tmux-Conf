@@ -1,6 +1,3 @@
---fd = io.open("test", "w")
---fd:write(path.concat { vim.fn.stdpath "data", "mason" })
---fd:close()
 require("laliosman.plugins-setup")
 require("laliosman.core.options")
 require("laliosman.core.colorscheme")
